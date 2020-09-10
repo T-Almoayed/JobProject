@@ -1,0 +1,208 @@
+/*
+    Theme Name: HTML5/CSS/PHP;
+    Date: Feb 2020;
+    Discribtion: Create a project to apply for a job;
+    Author: Taha Almoayed;
+    Author URL: https://www.linkedin.com/in/taha-almoayed-a36132143/
+*/
+
+body {
+    background-image: url('img/backgrounds.jpg');
+    background-attachment: fixed;
+    color: #000305;
+    font-size: 87%;    /* base font-size= 14px */
+    font-family: Arial,'Lucida Sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+
+}
+
+a{ text-decoration: none;}
+a:link, a:visited{color:#e74c3c;}
+a:hover, a:active{color: #f58233 ;}
+
+.body{
+    margin: 10px auto;
+    width: 70%;
+    clear: both;
+}
+
+/*------------ MAIN HEADER----------------*/
+
+
+.mainContent{
+    float: left;
+    width: 70%;
+
+}
+
+.mainheader img{
+    width: 100%;
+    border-radius: 5%;
+}
+.mainheader nav{
+    background-color: #e74c3c;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px; /* (we write "webkit and moz" befor "border-radius" in order to ensure that curvature appear on all browser ) */
+    -moz-border-radius: 5px;
+
+}
+
+.mainheader nav ul{
+    text-align: center;
+    list-style: none;
+}
+.mainheader nav ul li{
+    display: inline;
+}
+.mainheader a:link, .mainheader a:visited{
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    height: 20px;
+}
+.mainheader a:hover, .mainheader a:active{
+    color: white;
+    background-color: #f58233;
+}
+
+.top-content {
+    background-color: #fff;
+    padding: 3%;
+    margin-top: 3%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px; /* (we write "webkit and moz" befor "border-radius" in order to ensure that curvature appear on all browser ) */
+    -moz-border-radius: 5px;
+
+
+}
+.post-info{
+    font-size: 90%;
+    color: #999;
+    font-style: italic;
+    margin-top: -20px;
+
+}
+
+.post-content{
+    display: block ;
+}
+
+
+/*------------ SAIDE BAR----------------*/
+
+.sideBar{
+    background-color: white;
+    padding: 2%;
+    width: 24%;
+    margin: 2% 0 0 2%;
+    float: left;
+    border-radius: 5px;
+    -webkit-border-radius: 5px; /* (we write "webkit and moz" befor "border-radius" in order to ensure that curvature appear on all browser ) */
+    -moz-border-radius: 5px;
+}
+
+/*------------ FOOTER----------------*/
+
+
+.footer{
+    float: left;
+    background-color: #e74c3c;
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+    margin-block-end: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px; /* (we write "webkit and moz" befor "border-radius" in order to ensure that curvature appear on all browser ) */
+    -moz-border-radius: 5px;
+}
+.footer p {
+    text-align: center;
+    color: white;
+    width: 90%;
+}
+
+
+/*--------------------HTML5--------------------------*/
+
+.post-img {
+    width: 100%;
+}
+figure {
+    margin: 10% 0;
+    font-size: 80%;
+    color: #999;
+}
+
+.summaryColor{
+    color: #e74c3c;
+}
+
+/*--------------------CSS3 MOBILE--------------------------*/
+
+@media screen and (max-width: 480px ){
+    .body{ 
+        width: 90%;
+        font-size: 95%;
+        
+    }
+
+    /*------------ MAIN HEADER MOBILE----------------*/
+
+
+    .mainContent{
+    width: 100%;
+
+    }
+
+    .mainheader nav{
+    height: 160px;
+    }
+
+    .mainheader nav ul{
+    text-align: center;
+    list-style: none;
+    }
+    .mainheader nav ul li{
+    display: inline;
+    }
+    .mainheader a:link, .mainheader a:visited{
+    display: block;
+    }
+    .mainheader ul{
+        width: 100%;
+        padding: 0%;
+    }
+
+    .sideBar{
+
+        width: 96%; 
+        margin: 4% 0; 
+    }
+    
+    
+
+
+}
+
+/*--------------------CSS3 IPAD--------------------------*/
+
+
+@media screen and (max-width: 680px ){
+    .body{
+        width: 90%;
+        font-size: 95%;
+    }
+    .mainheader nav {
+        font-size: 80%;
+    }
+
+
+}
+
+
+
+
+
